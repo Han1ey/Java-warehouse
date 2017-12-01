@@ -1,0 +1,29 @@
+{
+  "name": "quartz定时任务队列",
+  "tasks": [
+    {
+      "id": "1",
+      "code": "OneTask",
+      "name": "定时任务1",
+      "sleep": "59 * * * * ?",
+      "status": "run",
+      "clz": "com.smile.sh.task.OneTask"
+    },
+    {
+      "id": "2",
+      "code": "TwoTask",
+      "name": "定时任务2",
+      "sleep": "59 * * * * ?",
+      "status": "stop",
+      "clz": "com.smile.sh.task.TwoTask"
+    },
+    {
+      "id": "3",
+      "code": "ThreeTask",
+      "name": "定时任务3",
+      "sleep": "59 * * * * ?",
+      "status": "run",
+      "clz": "com.smile.sh.task.ThreeTask"
+    }
+  ]
+}
